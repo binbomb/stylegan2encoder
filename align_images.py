@@ -5,7 +5,7 @@ from keras.utils import get_file
 from ffhq_dataset.face_alignment import image_align
 from ffhq_dataset.landmarks_detector import LandmarksDetector
 
-LANDMARKS_MODEL_URL = 'http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2'
+LANDMARKS_MODEL_URL = 'https://drive.google.com/uc?id=1U9uFeawt44AeIV1qj_YTr_N2KJ-fsKUK'
 
 
 def unpack_bz2(src_path):
